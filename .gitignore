@@ -1,0 +1,57 @@
+# ----- Configuración con secretos (NUNCA subir) -----
+api/config.php
+.env
+.env.*
+!.env.example
+
+# ----- Logs -----
+*.log
+logs/
+api/logs/
+
+# ----- Dependencias (si algún día usas Composer/npm) -----
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# ----- Caché y temporales -----
+cache/
+tmp/
+temp/
+*.tmp
+*.cache
+
+# ----- Sistema operativo -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----- Editores / IDE -----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ----- Backups -----
+*.bak
+*.backup
+*.old
+*~
+
+# ----- Archivos de entorno de Supabase CLI (si lo usáis) -----
+supabase/.branches
+supabase/.temp
+
+# ----- Otros -----
+*.zip
+*.rar
+*.7z
