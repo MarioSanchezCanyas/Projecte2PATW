@@ -1,4 +1,4 @@
-const Router = (() => {
+window.Router = (() => {
   const routes = {};
   let current = null;
 
